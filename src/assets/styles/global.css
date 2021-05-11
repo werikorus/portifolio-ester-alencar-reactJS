@@ -1,0 +1,50 @@
+:root{
+  font-size: 60%;
+
+  --color-page-header: #F2ABB9;
+  --color-text-in-primary-pink-strong:#AE4C60;
+  --color-main-page-ligth: #F3D4D2;
+  --color-text-in-primary-white:#FFF;
+  --color-text-in-carroucel: #AE4C60B2;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: var(--color-background);
+}
+
+#root {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  justify-items: center; 
+}
+
+@font-face {
+  src: url(/src/assets/fonts/Stellina.ttf);
+  font-family: 'Stellina';    
+  font-weight: 100;
+} 
+
+@font-face {
+  src: url(/src/assets/fonts/Comfortaa-Regular.ttf);
+  font-family: 'Confortaa-Regular';    
+  font-weight: normal;
+} 
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}

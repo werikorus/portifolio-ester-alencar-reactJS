@@ -1,0 +1,15 @@
+#MainPage{
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: var(--color-main-page-ligth);
+}
+
+
+
+

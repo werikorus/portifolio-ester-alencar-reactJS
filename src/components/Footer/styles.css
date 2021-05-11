@@ -1,0 +1,42 @@
+.page-footer{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-page-header);
+  padding: 3rem;
+  align-content: center;
+  justify-items: center;
+  position: absolute;
+  flex-direction: column;
+};
+
+.footerIcons{
+  display: flex;
+  height: 8rem;
+  align-content: center;
+  justify-items: center;
+}
+
+.FooterIcons{
+  width: 5rem;
+  padding: 0.rem;
+  transition: width 0.2s;
+  color: #AE4C60;
+  margin-top: 10px;
+  transition: heigth 0.5s;
+}
+
+.FooterIcons:hover{
+  height: 3.5rem;
+}
+
+.gmail{
+  width: 5rem;
+  padding: 0.rem;
+  transition: width 0.2s;
+  color: #AE4C60;
+  margin-top: 10px;
+  transition: heigth 0.5s;
+}
+

@@ -1,0 +1,40 @@
+.icons-img{
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#photoshop-img{
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+  transition: width 0.2s;
+}
+#photoshop-img:hover{
+  width: 55px;
+  height: 35px;
+}
+
+#illustrator-img{
+ width: 29px;
+ height: 29px;
+ padding-right: 5px;
+ transition: width 0.2s;
+}
+
+#illustrator-img:hover{
+  width: 55px;
+  height: 35px;
+}
+
+#figma-img{
+ width: 64px;
+ height: 64px;
+ transition: width 0.2s;
+}
+
+#figma-img:hover{
+  width: 78px;
+  height: 78px;
+}
