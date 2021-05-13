@@ -21,6 +21,8 @@ interface CarroucelProps{
   img1 ?:string;
   img2 ?:string;
   img3 ?:string;
+  img4 ?:string;
+  img5 ?:string;
 }
 
 const ImagesCarroucel: React.FC<CarroucelProps> = (props) => {
@@ -32,22 +34,24 @@ const ImagesCarroucel: React.FC<CarroucelProps> = (props) => {
 
         <Carousel breakPoints={breakPoints} isRTL={false}>
           <Item ClassName="item1">
-            <img src={props.img1} alt=""/>
+            <img src={props.img1} id="img" alt=""/>
           </Item>
           
           <Item>
-            <img src={props.img2} alt=""/>
+            <img src={props.img2} id="img" alt=""/>
           </Item>
          
           <Item>
-              <img src={props.img3} alt=""/>
+              <img src={props.img3} id="img"  alt=""/>
           </Item>
 
-          <Item>Four</Item>
-          <Item>Five</Item>
-          <Item>Six</Item>
-          <Item>Seven</Item>
-          <Item>Eight</Item>
+          <Item>
+            <img src={props.img4} id="img" alt=""/>
+          </Item>
+         
+          <Item>
+              <img src={props.img5} id="img"  alt=""/>
+          </Item>
 
         </Carousel>
 

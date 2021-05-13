@@ -50,12 +50,15 @@ const MainPage = () =>{
       <ImagesCarroucel 
         title= "Identidade Visual"
         img1= {ind1}
+        img2= {ind1}
+        img3= {ind1}
       />
 
       <ImagesCarroucel 
         title= "UI Design"
         img1= {rec1}
         img2= {rec2}
+        img3= {rec1}
       />
     </main>
   );
