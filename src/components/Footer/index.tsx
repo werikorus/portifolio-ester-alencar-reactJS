@@ -18,7 +18,9 @@ function Footer(){
       <h1>Contato:</h1>
       <SiGmail  size={30} className="gmail"/> 
       <h1>estercarvalhodealencar@gmail.com</h1>
-      <div className="footerIcons">
+
+
+      <div className="footerIcons-div">
 
         <a href="https://www.linkedin.com/in/ester-carvalho-de-alencar-b41038191">
           <SiLinkedin  size={30} className="FooterIcons"/> 
