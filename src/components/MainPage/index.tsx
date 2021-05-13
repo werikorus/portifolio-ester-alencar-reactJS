@@ -20,8 +20,6 @@ import rec2 from "./../../assets/images/UIDesign/rec2.svg";
 import ind1 from "./../../assets/images/ind-visual/ind1.svg";
 
 
-
-
 import "./styles.css";
 import "./ImagensList.js";
 
