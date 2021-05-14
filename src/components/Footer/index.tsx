@@ -17,20 +17,19 @@ function Footer(){
     <footer className="page-footer">
       <h1>Contato:</h1>
       <SiGmail  size={30} className="gmail"/> 
-      <h1>estercarvalhodealencar@gmail.com</h1>
-
+      <h2>estercarvalhodealencar@gmail.com</h2>
 
       <div className="footerIcons-div">
 
-        <a href="https://www.linkedin.com/in/ester-carvalho-de-alencar-b41038191">
+        <a href="https://bityli.com/VDdkR">
           <SiLinkedin  size={30} className="FooterIcons"/> 
         </a>
 
-        <a href="https://www.instagram.com/ester_artsss/?igshid=uvll1xw0lrhm">
-           <SiInstagram  size={30} className="FooterIcons"/> 
+        <a href="https://bityli.com/FYCvr">
+          <SiInstagram  size={30} className="FooterIcons"/> 
         </a>
 
-        <a href="https://api.whatsapp.com/send?phone=556392021394&text=Ol%C3%A1%2C%20Ester!" className="whatsappImg">        
+        <a href="https://bityli.com/VrZfm" className="whatsappImg">        
           <SiWhatsapp  size={30} className="FooterIcons"/> 
         </a>
 

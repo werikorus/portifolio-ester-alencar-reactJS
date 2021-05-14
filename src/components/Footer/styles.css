@@ -1,19 +1,21 @@
 .page-footer{
   display: flex;
   width: 100vw;
+  height: 30rem;
   justify-content: center;
   align-items: center;
   background-color: var(--color-page-header);
-  padding: 3rem;
-  align-content: center;
-  justify-items: center;
-  position: absolute;
+  align-content: flex-end;
   flex-direction: column;
 };
 
+.page-footer h1{
+  color: #AE4C60;
+}
+
 .page-footer .footerIcons-div{
   display: flex;
-  height: 5rem;
+  height: 8rem;
   align-content: center;
   align-items: center;
   justify-items: center;

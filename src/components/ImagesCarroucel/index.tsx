@@ -8,6 +8,10 @@ import 'react-slideshow-image/dist/styles.css'
 
 import "./styles.css";
 
+const listaimg = [
+
+    
+]
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -33,7 +37,7 @@ const ImagesCarroucel: React.FC<CarroucelProps> = (props) => {
         <div className="div-child-section">
 
         <Carousel breakPoints={breakPoints} isRTL={false}>
-          <Item ClassName="item1">
+          <Item>
             <img src={props.img1} id="img" alt=""/>
           </Item>
           

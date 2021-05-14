@@ -6,12 +6,13 @@
   --color-main-page-ligth: #F3D4D2;
   --color-text-in-primary-white:#FFF;
   --color-text-in-carroucel: #AE4C60B2;
-
 }
 
 * {
   margin: 0;
   padding: 0;
+  color: #AE4C60;
+  justify-content: center;
 }
 
 html,

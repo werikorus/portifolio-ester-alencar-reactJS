@@ -6,35 +6,35 @@
 }
 
 #photoshop-img{
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
   padding-right: 5px;
   transition: width 0.2s;
 }
 #photoshop-img:hover{
-  width: 55px;
-  height: 35px;
+  width: 3.8rem;
+  height: 3.8rem;
 }
 
 #illustrator-img{
- width: 29px;
- height: 29px;
+ width: 3rem;
+ height: 3rem;
  padding-right: 5px;
  transition: width 0.2s;
 }
 
 #illustrator-img:hover{
-  width: 55px;
-  height: 35px;
+  width: 3.8rem;
+  height: 3.8rem;
 }
 
 #figma-img{
- width: 64px;
- height: 64px;
+ width: 3rem;
+ height: 3rem;
  transition: width 0.2s;
 }
 
 #figma-img:hover{
-  width: 78px;
-  height: 78px;
+  width: 4rem;
+  height: 4rem;
 }
