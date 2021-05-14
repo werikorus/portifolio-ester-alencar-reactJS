@@ -27,13 +27,13 @@ const MainPage = () =>{
   return (
     <main id="MainPage">
       {/* <BootstrapGallery/> */}
-
+{/* 
       <ImagesCarroucel 
         title = "Edições"
         img1 = {edt1}
         img2 = {edt2}
         img3 = {edt3}
-      />
+      /> */}
     
       <ImagesCarroucel 
         title= "Cartões de Visita"
