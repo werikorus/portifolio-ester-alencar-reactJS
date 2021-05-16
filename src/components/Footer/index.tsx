@@ -35,7 +35,7 @@ function Footer(){
       
       </div>
       
-      <h5>Copyright © Ester C. Alencar. Todos os direitos reservados</h5>
+      <h5>Copyright © Ester C. Alencar | Todos os direitos reservados</h5>
       <h6>Desenvolvido por <a href="https://bityli.com/PMsMd" style={{textDecoration:'none'}}>Werik Santos</a></h6> 
       
     </footer>
