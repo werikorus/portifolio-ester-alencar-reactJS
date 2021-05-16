@@ -18,15 +18,45 @@ import rec2 from "./../../assets/images/UIDesign/rec2.svg";
 
 import ind1 from "./../../assets/images/ind-visual/ind1.svg";
 
+import Cards from "../Cards";
 
 import "./styles.css";
-
-import BootstrapGallery from "../BootstrapGallery";
 
 const MainPage = () =>{
   return (
     <main id="MainPage">
-      {/* <BootstrapGallery/> */}
+      <div className="cardItems">
+        <Cards
+          title= "Edições"
+          subtitle= "Edições aleatórias, montagens etc"
+          img= {edt2}
+        />
+
+        <Cards
+          title= "Cartões de Visita"
+          subtitle="Cartões de visita para empresas"
+          img= {cartao3}      
+        />
+        
+        <Cards
+          title="Publicidade"
+          subtitle="Trabalhos de martketing"
+          img={pub1}
+        />
+
+        <Cards  
+          title="Identidade Visual"
+          subtitle="logomarcas etc"
+          img={ind1}
+        />
+
+        <Cards  
+          title="UI Design"
+          subtitle="Prototipação de aplicações"
+          img={rec1}
+        />
+      </div>
+
 {/* 
       <ImagesCarroucel 
         title = "Edições"
@@ -35,7 +65,7 @@ const MainPage = () =>{
         img3 = {edt3}
       /> */}
     
-      <ImagesCarroucel 
+      {/* <ImagesCarroucel 
         title= "Cartões de Visita"
         img1= {cartao1}
         img2= {cartao3}
@@ -61,7 +91,7 @@ const MainPage = () =>{
         img1= {rec1}
         img2= {rec2}
         img3= {rec1}
-      />
+      /> */}
       
     </main>
   );

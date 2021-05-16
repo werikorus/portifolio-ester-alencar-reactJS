@@ -22,9 +22,9 @@
   transition: width 0.3s;
 }
 
-/* #img:hover{
+#img:hover{
   width: 32rem;
-} */
+}
 
 .line-break{ 
   height: 1px;

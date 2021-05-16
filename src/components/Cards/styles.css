@@ -1,0 +1,21 @@
+.CardElement{
+  width: 25.2rem;
+}
+
+#card-obj{
+ border-radius: 10px;
+ padding-right: 10rem;
+ transition: heigth 1s;
+}
+
+#card-obj:hover{
+  height: 35rem;
+}
+
+
+@media (min-width: 700px) {
+  :card-obj {
+    width: 10rem;
+    height: 14rem;
+  }
+}
