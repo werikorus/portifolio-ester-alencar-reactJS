@@ -2,14 +2,17 @@
   width: 25.2rem;
 }
 
-#card-obj{
+.CardElement #card-obj{
  border-radius: 10px;
  padding-right: 10rem;
- transition: heigth 1s;
 }
 
-#card-obj:hover{
-  height: 35rem;
+.CardElement #card-obj{
+  transition: heigth 0.5s;
+}
+
+.CardElement #card-obj:hover{
+  height: 40rem;
 }
 
 
