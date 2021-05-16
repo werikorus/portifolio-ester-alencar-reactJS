@@ -30,30 +30,35 @@ const MainPage = () =>{
           title= "Edições"
           subtitle= "Edições aleatórias, montagens etc"
           img= {edt2}
+          goToPage="/edicoes"
         />
 
         <Cards
           title= "Cartões de Visita"
           subtitle="Cartões de visita para empresas"
-          img= {cartao3}      
+          img= {cartao3}
+          goToPage="/cartoes"      
         />
         
         <Cards
           title="Publicidade"
           subtitle="Trabalhos de martketing"
           img={pub1}
+          goToPage="/publicidade"
         />
 
         <Cards  
           title="Identidade Visual"
           subtitle="logomarcas etc"
           img={ind1}
+          goToPage="/indentidadevisual"
         />
 
         <Cards  
           title="UI Design"
           subtitle="Prototipação de aplicações"
           img={rec1}
+          goToPage="uidesign"
         />
       </div>
 
