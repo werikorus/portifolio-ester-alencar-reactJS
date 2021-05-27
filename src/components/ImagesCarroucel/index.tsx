@@ -32,7 +32,7 @@ const ImagesCarroucel: React.FC<CarroucelProps> = (props) => {
             {props.imgs.map((item, index) => {
               return (
                 <Item>
-                  <img src={props.imgs[index]} id="img" alt=""/>
+                  <img src={props.imgs[index]} id="img" alt={props.title+index}/>
                 </Item>
               )
             })}

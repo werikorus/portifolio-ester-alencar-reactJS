@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
-import "./imagens.js"
 import ImagesCarroucel from "../ImagesCarroucel";
 
 import edt1 from  './../../assets/images/edicoes/ed1.svg';
@@ -26,21 +25,36 @@ import Ui2 from './../../assets/images/UIDesign/rec2.svg';
 import Ui3 from  './../../assets/images/UIDesign/rec1.svg';
 
 
-const edicoes = new Array(edt3, edt2, edt3);
-const cartoes = new Array(cart1, cart2, cart3);
-const publicidade = new Array(pub1, pub2, pub3);
-const idVisual = new Array(indV1, indV2, indV3);
-const  uiDesign = new Array(Ui1, Ui2, Ui3);
+const edicoes = new Array(edt3, edt2, edt3, edt2);
+const cartoes = new Array(cart1, cart2, cart3, cart1);
+const publicidade = new Array(pub1, pub2, pub3, pub1);
+const idVisual = new Array(indV1, indV2, indV3, indV1);
+const  uiDesign = new Array(Ui1, Ui2, Ui3, Ui1);
+
+const titles = [
+  'Edições',
+  'Publicidade',
+  'Cartões',
+  'Publicidade',
+  'Identidade Visual',
+  'UI Design'];
+
+const slides = [
+  edicoes,
+  cartoes,
+  publicidade,
+  idVisual,
+  uiDesign
+];
 
 const MainPage = () =>{
   return (
     <main id="MainPage">
-      <ImagesCarroucel title="Edições" imgs={edicoes}/>
-      <ImagesCarroucel title="Cartões" imgs={cartoes}/>
-      <ImagesCarroucel title="Publicidade" imgs={publicidade}/>
-      <ImagesCarroucel title="Identidade Visual" imgs={idVisual}/>
-      <ImagesCarroucel title="UI Design" imgs={uiDesign}/>
-      
+      {slides.map((item, index) =>{
+        return (
+          <ImagesCarroucel title={titles[index]} imgs={slides[index]}/>
+        )
+      })};
     </main>
   );
 };
