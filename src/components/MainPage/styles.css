@@ -1,6 +1,6 @@
 #MainPage{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -9,12 +9,12 @@
   background: var(--color-main-page-ligth);
 }
 
-.cardItems{
+/* .cardItems{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: center;
   align-items: center;
   height: 31rem;
   width: 100vw;
   
-}
+} */

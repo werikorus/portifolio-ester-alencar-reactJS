@@ -6,12 +6,9 @@ import Item from "./Item.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-slideshow-image/dist/styles.css'
 
+import img1 from './../../assets/images/cartoes/cart1.svg';
+
 import "./styles.css";
-
-const listaimg = [
-
-    
-]
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -22,11 +19,7 @@ const breakPoints = [
 
 interface CarroucelProps{
   title: string;
-  img1 ?:string;
-  img2 ?:string;
-  img3 ?:string;
-  img4 ?:string;
-  img5 ?:string;
+  imgs: Array<string>;
 }
 
 const ImagesCarroucel: React.FC<CarroucelProps> = (props) => {
@@ -35,30 +28,15 @@ const ImagesCarroucel: React.FC<CarroucelProps> = (props) => {
       <h1>{props.title}</h1>
       <section className="sec-carroucel">
         <div className="div-child-section">
-
-        <Carousel breakPoints={breakPoints} isRTL={false}>
-          <Item>
-            <img src={props.img1} id="img" alt=""/>
-          </Item>
-          
-          <Item>
-            <img src={props.img2} id="img" alt=""/>
-          </Item>
-         
-          <Item>
-              <img src={props.img3} id="img"  alt=""/>
-          </Item>
-
-          <Item>
-            <img src={props.img4} id="img" alt=""/>
-          </Item>
-         
-          <Item>
-              <img src={props.img5} id="img"  alt=""/>
-          </Item>
-
-        </Carousel>
-
+          <Carousel breakPoints={breakPoints} isRTL={false}>
+            {props.imgs.map((item, index) => {
+              return (
+                <Item>
+                  <img src={props.imgs[index]} id="img" alt=""/>
+                </Item>
+              )
+            })}
+          </Carousel>
         </div>
       </section>
       <div className="line-break"></div>
