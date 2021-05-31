@@ -1,6 +1,7 @@
 #img{
   width: 28rem;
   transition: width 0.3s;
+  box-shadow: black 15px;
 }
 
 #img:hover{

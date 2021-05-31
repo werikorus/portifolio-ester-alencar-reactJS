@@ -10,7 +10,7 @@ function PageHeader(){
         <strong className="title">Ester C. Alencar</strong>
         <p className="subtitle">D E S I G N E R  G R Á F I C O</p>
         <Icons />
-      </div>
+      </div> 
     </header>
   )
 };

@@ -1,7 +1,5 @@
 import ModalImage from "react-modal-image"
-
 import "./styles.css"
-import { Lightbox } from "react-modal-image";
 
 
 const ImagemModal = (prop) => {
@@ -9,19 +7,15 @@ const ImagemModal = (prop) => {
     <div id="img">
       <ModalImage
         small={prop.smallImg}
-        large={prop.largeImg}
-        alt=""
+        medium={prop.largeImg}
+        hideDownload={false}
+        imageBackgroundColor={'nonse'}
+        hideZoom={false}
+        alt=""        
       />
 
-      {/* <Lightbox
-        medium={prop.smallImg}
-        large={prop.largeImg}
-        alt="loading"
-        // onClose={this.closeLightbox}
-      /> */}
-
     </div>
-  );
+  );  
 }
 
 export default ImagemModal;
