@@ -38,7 +38,7 @@ h1{
   padding-top: 2rem;
   color: var(--color-text-in-carroucel);
   font-weight: 100;
-  align-items: baseline;
+  align-self: right;
 }
 
 .d-block-w-100{

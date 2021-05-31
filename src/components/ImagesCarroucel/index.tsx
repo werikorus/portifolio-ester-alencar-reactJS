@@ -29,6 +29,7 @@ const ImagesCarroucel: React.FC<CarroucelProps> = (props) => {
     <>
       <h1>{props.title}</h1> 
       <section className="sec-carroucel">
+      
         <div className="div-child-section">
           <Carousel breakPoints={breakPoints} isRTL={false}>
             {props.imgs.map((item, index) => {
@@ -38,7 +39,6 @@ const ImagesCarroucel: React.FC<CarroucelProps> = (props) => {
                     smallImg={props.imgs[index]}
                     largeImg={props.imgs[index]}
                   />
-                    {/* <img src={props.imgs[index]} id="img" alt="Loading..." onClick={PopPubImg}/> */}
                 </Item>
               )
             })}
