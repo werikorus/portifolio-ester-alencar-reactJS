@@ -8,9 +8,9 @@ const ImagemModal = (prop) => {
       <ModalImage
         small={prop.smallImg}
         medium={prop.largeImg}
-        hideDownload={false}
-        imageBackgroundColor={'nonse'}
-        hideZoom={false}
+        hideDownload={true}
+        imageBackgroundColor={'none'}
+        hideZoom={true}
         alt=""        
       />
 
