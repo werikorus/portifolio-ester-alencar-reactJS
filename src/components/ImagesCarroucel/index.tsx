@@ -1,14 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item.js";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'react-slideshow-image/dist/styles.css'
-
-import img1 from './../../assets/images/cartoes/cart1.svg';
+import 'react-slideshow-image/dist/styles.css';
 
 import "./styles.css";
+import ImagemModal from "../ImagemModal/index.jsx";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -18,21 +16,29 @@ const breakPoints = [
 ];
 
 interface CarroucelProps{
-  title: string;
+  title: string;  
   imgs: Array<string>;
+}
+
+function PopPubImg(){
+  return console.log('Aqui vai chamar a imagem!');
 }
 
 const ImagesCarroucel: React.FC<CarroucelProps> = (props) => {
   return(
     <>
-      <h1>{props.title}</h1>
+      <h1>{props.title}</h1> 
       <section className="sec-carroucel">
         <div className="div-child-section">
           <Carousel breakPoints={breakPoints} isRTL={false}>
             {props.imgs.map((item, index) => {
               return (
                 <Item>
-                  <img src={props.imgs[index]} id="img" alt={props.title+index}/>
+                  <ImagemModal
+                    smallImg={props.imgs[index]}
+                    largeImg={props.imgs[index]}
+                  />
+                    {/* <img src={props.imgs[index]} id="img" alt="Loading..." onClick={PopPubImg}/> */}
                 </Item>
               )
             })}

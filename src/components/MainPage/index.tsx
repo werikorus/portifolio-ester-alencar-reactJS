@@ -26,7 +26,7 @@ import Ui3 from  './../../assets/images/UIDesign/rec1.svg';
 
 
 const edicoes = new Array(edt3, edt2, edt3, edt2);
-const cartoes = new Array(cart1, cart2, cart3, cart1);
+const cartoes = new Array(cart1, cart3, cart1, cart2);
 const publicidade = new Array(pub1, pub2, pub3, pub1);
 const idVisual = new Array(indV1, indV2, indV3, indV1);
 const  uiDesign = new Array(Ui1, Ui2, Ui3, Ui1);
@@ -49,6 +49,7 @@ const slides = [
 
 const MainPage = () =>{
   return (
+    
     <main id="MainPage">
       {slides.map((item, index) =>{
         return (

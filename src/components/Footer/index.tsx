@@ -1,9 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import linkedinImg from "./../../assets/images/linkedin.svg";
-import instagram from "./../../assets/images/instagram.svg";
-import whatsapp from "./../../assets/images/whatsapp.svg";
-
 import { SiWhatsapp } from 'react-icons/si';
 import { SiLinkedin } from 'react-icons/si';
 import { SiInstagram } from 'react-icons/si';
@@ -29,14 +23,14 @@ function Footer(){
           <SiInstagram  size={30} className="FooterIcons"/> 
         </a>
 
-        <a href="https://bityli.com/VrZfm" className="whatsappImg">        
+        <a href="https://bityli.com/VrZfm" className="FooterIcons">        
           <SiWhatsapp  size={30} className="FooterIcons"/> 
         </a>
       
       </div>
       
       <h5>Copyright © Ester C. Alencar | Todos os direitos reservados</h5>
-      <h6>Desenvolvido por <a href="https://bityli.com/PMsMd" style={{textDecoration:'none'}}>Werik Santos</a></h6> 
+      <h6>Desenvolvido por <a href="https://bityli.com/PMsMd" style={{textDecoration:'none'}}> Werik Santos </a></h6> 
       
     </footer>
   )
