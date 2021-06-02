@@ -8,6 +8,9 @@
   margin: 0 auto;
   position: relative;
   margin: 3.2rem auto;
+  align-content: center;
+  align-items: center;
+  justify-items: center;  
 }
 
 .page-header .header-content .title {

@@ -24,7 +24,6 @@
 .page-footer .footerIcons-div .FooterIcons{
   width: 5rem;
   padding: 0.2rem;
-  transition: width 0.2s;
   color: #AE4C60;
   margin-top: 10px;
   transition: heigth 0.5s;

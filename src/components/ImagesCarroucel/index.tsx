@@ -28,8 +28,7 @@ const ImagesCarroucel: React.FC<CarroucelProps> = (props) => {
   return(
     <>
       <h1>{props.title}</h1> 
-      <section className="sec-carroucel">
-      
+      <section className="sec-carroucel">      
         <div className="div-child-section">
           <Carousel breakPoints={breakPoints} isRTL={false}>
             {props.imgs.map((item, index) => {

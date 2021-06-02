@@ -12,8 +12,7 @@ const ImagemModal = (prop) => {
         imageBackgroundColor={'none'}
         hideZoom={true}
         alt=""        
-      />
-
+      />    
     </div>
   );  
 }

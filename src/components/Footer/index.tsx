@@ -1,12 +1,7 @@
-import { SiWhatsapp } from 'react-icons/si';
-import { SiLinkedin } from 'react-icons/si';
-import { SiInstagram } from 'react-icons/si';
-import { SiGmail } from 'react-icons/si';
-
-
+import { SiWhatsapp, SiLinkedin, SiInstagram, SiGmail } from 'react-icons/si';
 import "./styles.css"
 
-function Footer(){
+const Footer = () => {
   return(
     <footer className="page-footer">
       <h1>Contato:</h1>
@@ -23,7 +18,7 @@ function Footer(){
           <SiInstagram  size={30} className="FooterIcons"/> 
         </a>
 
-        <a href="https://bityli.com/VrZfm" className="FooterIcons">        
+        <a href="https://bityli.com/VrZfm">        
           <SiWhatsapp  size={30} className="FooterIcons"/> 
         </a>
       
