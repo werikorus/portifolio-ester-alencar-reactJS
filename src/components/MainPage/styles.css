@@ -1,4 +1,4 @@
-#MainPage{
+.MainPage{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,14 +7,5 @@
   padding-top: 30px;
   padding-bottom: 30px;
   background: var(--color-main-page-ligth);
-}
-
-/* .cardItems{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  height: 31rem;
   width: 100vw;
-  
-} */
+}

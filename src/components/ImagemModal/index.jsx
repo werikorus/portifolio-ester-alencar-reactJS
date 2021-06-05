@@ -1,6 +1,5 @@
 import ModalImage from "react-modal-image"
-import "./styles.css"
-
+import "./styles.scss"
 
 const ImagemModal = (prop) => {
   return(

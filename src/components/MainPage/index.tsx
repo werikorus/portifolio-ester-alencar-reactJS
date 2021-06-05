@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import ImagesCarroucel from "../ImagesCarroucel";
+import SlideCarousel from "../SlideCarousel";
 
 import edt1 from  './../../assets/images/edicoes/ed1.svg';
 import edt2 from  './../../assets/images/edicoes/ed2.svg';
@@ -15,11 +15,9 @@ import pub1 from './../../assets/images/publicidade/pub1.svg';
 import pub2 from './../../assets/images/publicidade/pub2.svg';
 import pub3 from './../../assets/images/publicidade/pub3.svg';
 
-
 import indV1 from  './../../assets/images/indVisual/ind1.svg';
 import indV2 from './../../assets/images/indVisual/ind2.svg';
 import indV3 from './../../assets/images/indVisual/ind3.svg';
-
 
 import Ui1 from './../../assets/images/UIDesign/rec1.svg';
 import Ui2 from './../../assets/images/UIDesign/rec2.svg';
@@ -34,7 +32,6 @@ const  uiDesign = new Array(Ui1, Ui2, Ui3, Ui1);
 
 const titles = [
   'Edições',
-  'Publicidade',
   'Cartões',
   'Publicidade',
   'Identidade Visual',
@@ -49,12 +46,11 @@ const slides = [
 ];
 
 const MainPage = () =>{
-  return (
-    
-    <main id="MainPage">
+  return (    
+    <main className="MainPage">
       {slides.map((item, index) =>{
         return (
-          <ImagesCarroucel title={titles[index]} imgs={slides[index]}/>
+          <SlideCarousel title={titles[index]} imgs={slides[index]}/>
         )
       })};
     </main>
