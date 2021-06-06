@@ -2,7 +2,7 @@ import React  from "react";
 import photoshopIcon from "../../assets/images/photoshop.svg";
 import illustratorIcon from "../../assets/images/illustrator.svg";
 import figmaIcon from "../../assets/images/figma.svg";
-import "./styles.css";
+import "./styles.scss";
 
 const Icons = () =>{
   return(

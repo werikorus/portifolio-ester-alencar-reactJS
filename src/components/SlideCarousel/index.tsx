@@ -1,12 +1,11 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
+import ImagemModal from "../ImagemModal/index.jsx";
 import Item from "./Item.js";
 
+import "./styles.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-slideshow-image/dist/styles.css';
-
-import "./styles.css";
-import ImagemModal from "../ImagemModal/index.jsx";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -28,7 +27,7 @@ const SlideCarousel: React.FC<CarroucelProps> = (props) => {
         <div className="div-child-section">
           <Carousel breakPoints={breakPoints} isRTL={false}>
             {props.imgs.map((item, index) => {
-               if (props.imgs[index]!=''){
+               if (props.imgs[index]!==''){
                   return (
                     <Item>
                       <ImagemModal

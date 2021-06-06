@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./styles.scss";
 import SlideCarousel from "../SlideCarousel";
 
 import edt1 from  './../../assets/images/edicoes/ed1.svg';
@@ -28,7 +28,7 @@ const edicoes = new Array(edt1, edt2, edt3, edt4);
 const cartoes = new Array(cart1, cart3, cart1, cart2);
 const publicidade = new Array(pub1, pub2, pub3, pub1);
 const idVisual = new Array(indV1, indV2, indV3, indV1);
-const  uiDesign = new Array(Ui1, Ui2, Ui3, Ui1);
+const uiDesign = new Array(Ui1, Ui2, Ui3, Ui1);
 
 const titles = [
   'Edições',
