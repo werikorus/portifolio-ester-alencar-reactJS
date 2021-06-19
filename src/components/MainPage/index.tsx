@@ -23,7 +23,6 @@ import Ui1 from './../../assets/images/UIDesign/rec1.svg';
 import Ui2 from './../../assets/images/UIDesign/rec2.svg';
 import Ui3 from  './../../assets/images/UIDesign/rec1.svg';
 
-
 const edicoes = new Array(edt1, edt2, edt3, edt4);
 const cartoes = new Array(cart1, cart3, cart1, cart2);
 const publicidade = new Array(pub1, pub2, pub3, pub1);

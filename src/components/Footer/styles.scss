@@ -29,7 +29,6 @@
   transition: heigth 0.5s;
 }
 
-
 .FooterIcons:hover{
   height: 3.5rem;
 }
@@ -42,3 +41,13 @@
   transition: heigth 0.5s;
 }
 
+#rights-img{
+  height:22px!important;
+  margin-left:3px;
+  vertical-align:text-bottom;
+}
+#imgs-row{
+  display: flex;
+  flex-direction: row;
+  
+}

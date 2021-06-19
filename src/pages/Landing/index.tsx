@@ -6,7 +6,7 @@ import MainPage from "../../components/MainPage";
 
 function Landing(){
   return (
-      <div id="page-landing">
+      <div className="page-landing">
         <PageHeader />
         <MainPage />
         <Footer/>        

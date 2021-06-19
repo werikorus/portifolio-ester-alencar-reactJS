@@ -3,7 +3,7 @@ import Icons from "../../components/Icons";
 
 import "./styles.scss";
 
-function PageHeader(){
+const PageHeader = () =>{
   return(
     <header className="page-header">
       <div className="header-content">
