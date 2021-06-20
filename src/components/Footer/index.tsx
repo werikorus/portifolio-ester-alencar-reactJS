@@ -20,7 +20,6 @@ const Footer = () => {
         <a href="https://bityli.com/VrZfm">        
           <SiWhatsapp  size={30} className="FooterIcons"/> 
         </a>
-        
       </div>
 
       <h5>
@@ -34,7 +33,7 @@ const Footer = () => {
          <a href="https://bityli.com/PMsMd" style={{textDecoration:'none'}}> Werik Santos </a>           
       </h6> 
 
-      <div  id="imgs-row">
+      <div id="imgs-row">
         <img id="rights-img" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"></img>
         <img id="rights-img" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></img>
         <img id="rights-img" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></img>

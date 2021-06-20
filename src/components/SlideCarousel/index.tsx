@@ -27,7 +27,7 @@ const SlideCarousel: React.FC<CarroucelProps> = (props) => {
         <div className="div-child-section">
           <Carousel breakPoints={breakPoints} isRTL={false}>
             {props.imgs.map((item, index) => {
-               if (props.imgs[index]!==''){
+               if (props.imgs[index]!==null){
                   return (
                     <Item>
                       <ImagemModal

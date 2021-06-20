@@ -1,21 +1,45 @@
-import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import ImagemModal from "../ImagemModal/index.jsx";
 import 'swiper/swiper.scss';
+import Item from "./Item.js";
 
-const SwiperSlider = ()=>{
+
+interface SwiperSliderProps{
+  title?: string;  
+  imgs: Array<string>;
+}
+
+const SwiperSlider: React.FC<SwiperSliderProps> = (props) => {
   return(
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-      ...
+    <>
+    <h1>{props.title}</h1> 
+    <section className="sec-carroucel">      
+      <div className="div-child-section">
+      <Swiper
+        spaceBetween={50}
+        slidesPerView={3}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
+        {props.imgs.map((item, index) => {
+            if (props.imgs[index]!==null){
+              return (
+                  <SwiperSlide>
+                      <Item>
+                        <ImagemModal
+                          smallImg={props.imgs[index]}
+                          largeImg={props.imgs[index]}
+                        />
+                      </Item>
+                  </SwiperSlide>
+              )
+            }
+        })}
+        ...
     </Swiper>
+      </div>
+    </section>
+    <div className="line-break"></div>
+  </>
   );
 
 }
