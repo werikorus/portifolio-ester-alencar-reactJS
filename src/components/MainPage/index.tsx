@@ -22,13 +22,13 @@ import indV3 from './../../assets/images/indVisual/ind3.svg';
 
 import Ui1 from './../../assets/images/UIDesign/rec1.svg';
 import Ui2 from './../../assets/images/UIDesign/rec2.svg';
-import Ui3 from  './../../assets/images/UIDesign/rec1.svg';
+import Ui3 from  './../../assets/images/UIDesign/rec3.svg';
 
 const edicoes = new Array(edt1, edt2, edt3, edt4);
 const cartoes = new Array(cart1, cart2, cart3, cart1);
 const publicidade = new Array(pub1, pub2, pub3, pub1);
 const idVisual = new Array(indV1, indV2, indV3, indV1);
-const uiDesign = new Array(Ui1, Ui2, 'https://i.ibb.co/kgK3P32/ARAGUAPET-MOCKUP.png');
+const uiDesign = new Array(Ui1, Ui2, Ui3);
 
 const titles = [
   'Edições',
