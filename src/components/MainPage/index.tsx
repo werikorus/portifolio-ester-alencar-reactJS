@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles.scss";
 import SlideCarousel from "../SlideCarousel";
-import SwiperSlide from "../SwiperSlide";
 
 import edt1 from  './../../assets/images/edicoes/ed1.svg';
 import edt2 from  './../../assets/images/edicoes/ed2.svg';
