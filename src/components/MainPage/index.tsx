@@ -18,15 +18,16 @@ import pub3 from './../../assets/images/publicidade/pub3.svg';
 import indV1 from  './../../assets/images/indVisual/ind1.svg';
 import indV2 from './../../assets/images/indVisual/ind2.svg';
 import indV3 from './../../assets/images/indVisual/ind3.svg';
+import indV4 from './../../assets/images/indVisual/ind4.svg';
 
 import Ui1 from './../../assets/images/UIDesign/rec1.svg';
 import Ui2 from './../../assets/images/UIDesign/rec2.svg';
 import Ui3 from  './../../assets/images/UIDesign/rec3.svg';
 
-const edicoes = new Array(edt1, edt2, edt4, edt3);
+const edicoes = new Array(edt1, edt4, edt2, edt3);
 const cartoes = new Array(cart1, cart2, cart3, cart1);
 const publicidade = new Array(pub1, pub2, pub3, pub1);
-const idVisual = new Array(indV1, indV2, indV3, indV1);
+const idVisual = new Array(indV1, indV2, indV3, indV4);
 const uiDesign = new Array(Ui1, Ui2, Ui3);
 
 const titles = [
