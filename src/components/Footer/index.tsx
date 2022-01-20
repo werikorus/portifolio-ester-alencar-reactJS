@@ -9,15 +9,15 @@ const Footer = () => {
       <h2>estercarvalhodealencar@gmail.com</h2>
 
       <div className="footerIcons-div">
-        <a href="https://bityli.com/VDdkR">
+        <a href="https://www.linkedin.com/in/ester-carvalho-de-alencar-b41038191/">
           <SiLinkedin  size={30} className="FooterIcons"/> 
         </a>
 
-        <a href="https://bityli.com/FYCvr">
+        <a href="https://instagram.com/ester_artsss?utm_medium=copy_link">
           <SiInstagram  size={30} className="FooterIcons"/> 
         </a>
 
-        <a href="https://bityli.com/VrZfm">        
+        <a href="https://api.whatsapp.com/send?phone=554888665048&text=Ol%C3%A1,%20Ester!">        
           <SiWhatsapp  size={30} className="FooterIcons"/> 
         </a>
       </div>
